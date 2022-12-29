@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*">
+        <TableRow
+            android:stretchColumns="*"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp">
+
+            <TextView
+                android:text="Vagon"
+                android:paddingStart="15dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:text="Personas"
+                android:paddingStart="15dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:text="Máximo"
+                android:paddingStart="15dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila1"
+            android:stretchColumns="*"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp">
+
+            <TextView
+                android:id="@+id/idVagon1"
+                android:paddingStart="15dp"
+                android:text="Vagon1"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/personasVagon1"
+                android:text="Personas"
+                android:paddingStart="15dp"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/maxVagon1"
+                android:text="Máximo"
+                android:paddingStart="15dp"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila2"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:stretchColumns="*">
+
+            <TextView
+                android:id="@+id/idVagon2"
+                android:paddingStart="15dp"
+                android:text="Vagon2"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/personasVagon2"
+                android:paddingStart="15dp"
+                android:text="Personas"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/maxVagon2"
+                android:paddingStart="15dp"
+                android:text="Máximo"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/fila3"
+            android:stretchColumns="*"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp">
+
+            <TextView
+                android:id="@+id/idVagon3"
+                android:paddingStart="15dp"
+                android:text="Vagon3"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/personasVagon3"
+                android:text="Personas"
+                android:paddingStart="15dp"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/maxVagon3"
+                android:text="Máximo"
+                android:paddingStart="15dp"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+        </TableRow>
+    </TableLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
